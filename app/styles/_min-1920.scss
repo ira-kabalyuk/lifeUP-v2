@@ -3,11 +3,10 @@ $icon-font-path: '../fonts/';
 @media only screen and (min-width:1920px) {
 
 	.pagewrap {
-		width: 1320px;
+		width: 1650px;
 
 		 .content-wrap {
-   		width: 100%;
-		margin: 0 -14px;
+   		width: 100%;		
     	}
 
 	}
@@ -20,14 +19,14 @@ $icon-font-path: '../fonts/';
 	.footer-copyright-wrap {
 		display: flex;
 		justify-content: space-between;
-		flex-direction: column;
+		flex-direction: row;
 	}
 
 	.copyright {   
-    margin: 30px auto 0;
+    margin: 0 auto;
 	}
 
-	/*.footer{
+	.footer{
 
 		.mobile-flex-wrap-top {	
    	width: 37%;
@@ -37,7 +36,7 @@ $icon-font-path: '../fonts/';
 	   width: 60%;
 		}
 
-	}*/
+	}
 
 	/*more*/
 

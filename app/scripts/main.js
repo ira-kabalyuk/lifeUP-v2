@@ -29,7 +29,7 @@ $('.owl-carousel').owlCarousel({
         },
 
         1920:{
-            items:4
+            items:5
         }
     }
 })
@@ -68,7 +68,7 @@ $('.owl-carousel-1').owlCarousel({
         },
 
         1920:{
-            items:4
+            items:5
         }
     }
 })
