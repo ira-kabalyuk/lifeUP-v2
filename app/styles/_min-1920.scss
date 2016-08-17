@@ -1,0 +1,105 @@
+$icon-font-path: '../fonts/';
+
+@media only screen and (min-width:1920px) {
+
+	.pagewrap {
+		width: 1320px;
+
+		 .content-wrap {
+   		width: 100%;
+		margin: 0 -14px;
+    	}
+
+	}
+
+	.owl-nav {
+		display: none;
+	}
+
+	
+	.footer-copyright-wrap {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+	}
+
+	.copyright {   
+    margin: 30px auto 0;
+	}
+
+	/*.footer{
+
+		.mobile-flex-wrap-top {	
+   	width: 37%;
+   	}		
+
+		.mobile-flex-wrap-bottom {			
+	   width: 60%;
+		}
+
+	}*/
+
+	/*more*/
+
+	
+
+	/*-----------------------------------------interview--------------------------------------------------------------------*/
+
+	.interview-page {
+
+
+		.page-mobile-wrap {
+	      width: 1645px;
+	  }
+
+	  .page-head-block {
+
+			.head {
+				font-size: 74px;
+			}
+		
+		}
+
+		.article-description {
+			font-size: 28px;
+		}		
+
+	}
+
+/*-----------------------------------------------------autor-----------------------------------------------------------------------*/
+
+	.autor-page {
+
+		.sidebar {
+			display: block;
+		}
+	}
+
+/*-----------------------------------------------------longrid-----------------------------------------------------*/
+
+	.longrid-page {			
+		
+		.quote-autor-block {
+      width: 100%;
+    }
+
+	  	.autor-block-left {    
+	    position: absolute;
+	    top: 0;
+	    left: -215px;
+	  	}
+
+	}
+
+/*------------------------------------------poglyuad-------------------------------------------------------------------*/
+
+  .poglyad-page {
+
+  	.owl-nav {
+		display: block;
+  	}
+
+  }			  
+
+
+}

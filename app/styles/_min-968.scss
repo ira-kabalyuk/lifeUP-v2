@@ -1,0 +1,84 @@
+$icon-font-path: '../fonts/';
+
+@media only screen and (min-width:968px) {
+
+  .header {
+    width: 657px;
+  }
+
+  .pagewrap {
+    width: 940px;
+
+    .content-wrap {
+      width: 660px;
+      margin: 0 auto;
+
+    }  
+
+    .content-block-column {
+      
+
+      .heading {
+        font-size: 12px;
+        
+        }
+
+      .head {
+
+        a {
+          font-size: 22px;
+        }
+        
+      }
+
+    }   
+
+  }
+
+  .footer-flex-block {
+    flex-direction: row;
+
+    .footer-logo-block {
+      margin: 0;
+    }
+
+  }
+
+  .mobile-flex-wrap-top {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .net-block {
+    margin-top: 0;
+  }
+
+  .mobile-flex-wrap-bottom {
+    flex-direction: row;
+     justify-content: space-between;
+  }
+
+  .footer-copyright-wrap  {
+    margin-top: 0;
+
+  }
+
+  /*-------------------------------------------------interview----------------------------------------------------*/
+
+  .interview-page { 
+
+    .responsive-block-13 {      
+      width: 633px;
+      display: flex;
+      margin: 0 auto;      
+    }
+
+  }
+
+   /*-----------------------------------------------------longrid-----------------------------------------------------*/
+
+  .longrid-page {     
+
+  }     
+  
+}
