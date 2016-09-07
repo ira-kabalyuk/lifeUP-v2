@@ -3,7 +3,7 @@ $icon-font-path: '../fonts/';
 @media only screen and (max-width:767px) {
 
   .header {
-    max-width: 640px;
+    max-width: 630px;
     margin: 0 auto;
   } 
 
@@ -12,8 +12,8 @@ $icon-font-path: '../fonts/';
   } 
 
   .pagewrap {
-    //max-width: 550px;
-    max-width: 100%;
+    max-width: 660px;
+    //max-width: 100%;
 
    .content-wrap {
       //max-width: 305px;
@@ -181,7 +181,132 @@ $icon-font-path: '../fonts/';
     .footer-logo,
     .footer-about-us-link {
     text-align: center;
-  }   
+  } 
+
+  .block-1 {
+    order:0;
+  }
+
+  .block-2 {
+    order:1;
+  }
+
+  .block-3 {
+    order:2;
+  }
+
+  .block-4 {
+    order:3;
+  }
+
+  .block-5 {
+    order:5;
+  }
+
+  .block-6 {
+    order:4;
+  }
+
+  .block-7 {
+    order:6;
+  }
+
+  .block-8 {
+    order:7;
+  }
+
+  .block-9 {
+    order:8;
+  }
+
+  .block-10 {
+    order:9;
+  }
+
+  .block-11 {
+    order:12;
+  }
+
+  .block-12 {
+    order:10;
+  }
+
+  .block-13 {
+    order:11;
+  }
+
+  .block-14 {
+    order:13;
+  }
+
+  .block-15 {
+    order:14;
+  }
+
+  .block-16 {
+    order:15;
+  }
+
+  .block-17 {
+    order:16;
+  }
+
+  .block-18 {
+    order:17;
+  }
+
+  .block-19 {
+    order:18;
+  }
+
+  .block-20 {
+    order:19;
+  }
+
+  .block-21 {
+    order:20;
+  }
+
+  .block-22 {
+    order:21;
+  }
+
+  .block-23 {
+    order:22;
+  }
+
+  .block-24 {
+    order:23;
+  }
+
+  .block-25 {
+    order:24;
+  }
+
+  .block-26 {
+    order:25;
+  }
+
+  .block-27 {
+    order:26;
+  }
+
+  .block-28 {
+    order:27;
+  }
+
+  .block-29 {
+    order:28;
+  }
+
+  .block-30 {
+    order:29;
+  }
+
+  .block-31 {
+    order:30;
+  }
+  
 
 
 /*----------------------------------------------interview-------------------------------------*/

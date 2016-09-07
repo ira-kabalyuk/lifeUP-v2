@@ -24,6 +24,11 @@ $('.owl-carousel').owlCarousel({
         1024:{
             items:2
         },
+
+        1200:{
+            items:3
+        },
+        
         1366:{
             items:4
         },
@@ -61,6 +66,10 @@ $('.owl-carousel-1').owlCarousel({
 
         1024:{
             items:2
+        },
+
+        1200:{
+            items:3
         },
 
         1366:{
