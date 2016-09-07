@@ -278,9 +278,10 @@ body {
 
   
   .column {  
-    margin-bottom:30px;
-    height: 250px; 
-    width: 300px;     
+    margin-bottom:30px;     
+    width: 300px;
+    height: 530px;
+    overflow: hidden;     
   }
 
 
@@ -512,9 +513,11 @@ h1 {
 
 
 .article-announcement-block {
-  margin-bottom: 30px;
+  margin-bottom: 26px;
   display: flex;
   flex-wrap: nowrap;
+  height: 85px;
+  overflow: hidden;
 
    img {
       width: 100%; 
@@ -1183,6 +1186,7 @@ h1 {
   @import "_min-1024.scss";
   @import "_min-1200.scss";
   @import "_min-1366.scss";
+  @import "_min-1366_max-1920.scss";
   @import "_min-1920.scss";
   @import "_max-767.scss";
   @import "_max-650.scss";

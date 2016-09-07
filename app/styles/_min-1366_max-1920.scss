@@ -1,0 +1,23 @@
+$icon-font-path: '../fonts/';
+
+@media (min-width: 1366px) and (max-width: 1920px) { 
+
+	body {
+
+		.block-30, .block-31 {
+    width: 630px;
+    height: 250px;
+    display: flex;
+
+    .img-wrap {
+    	margin-right: 30px;
+
+    	&:last-child {
+    		margin-right: 0;
+    	}
+    }
+  	}
+
+	}  
+
+}
