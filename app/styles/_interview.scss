@@ -356,6 +356,23 @@ $icon-font-path: '../fonts/';
 
   }
 
+  .article-announcement-block {
+    height: auto;
+
+    .article-announcement-text { 
+      width: calc(100% - 100px);      
+ 
+      &:hover {
+        text-decoration: none;
+      }
+
+      .autor-name {
+        color: #363636;
+        font-size: 15px;
+      }
+    }  
+  }
+
   
 
   /*---------------------------------------sidebar----------------------------------------------*/
@@ -368,16 +385,6 @@ $icon-font-path: '../fonts/';
       display: block;
       margin-bottom: 10px;
       font-size: 14px;   
-
-    }
-
-    .article-announcement-text { 
-      max-width: 180px;
-      width: auto;
-
-      &:hover {
-          text-decoration: none;
-        }    
 
     }
 
