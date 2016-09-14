@@ -30,7 +30,7 @@ $icon-font-path: '../fonts/';
 
   .article-flex-wrap {
     display: flex;
-    justify-content: space-between;   
+    justify-content: flex-start;   
     margin: 0 auto;
   }
 
@@ -114,7 +114,7 @@ $icon-font-path: '../fonts/';
   }
 
   .article-wrap {    
-    margin: 0 auto;
+    margin: 0 auto 0 0;
   }  
 
   
@@ -371,6 +371,13 @@ $icon-font-path: '../fonts/';
         font-size: 15px;
       }
     }  
+  }
+
+  .main-page-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    //width: 100%;
+    justify-content: center;
   }
 
   

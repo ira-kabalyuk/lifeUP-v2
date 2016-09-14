@@ -236,7 +236,7 @@ $icon-font-path: '../fonts/';
 		}
 
 		.article-wrap {
-    	max-width: 655px;    
+    	//max-width: 655px;    
   	} 
 
   	.sidebar {
@@ -301,8 +301,7 @@ $icon-font-path: '../fonts/';
 
     }
 
-		.sidebar {
-			order:1;
+		.sidebar {			
 			width: 100%;
 			
 
