@@ -319,17 +319,36 @@ $icon-font-path: '../fonts/';
 
     .article-flex-wrap {
       flex-direction: column;
-      width: 100%
+      width: 100%;
+      order: 1;
+      padding: 0 15px;
+    }
+
+    .article-slider-wrap {
+      order: 1;
+    }
+
+    .net-wrap {
+      order: 3;
+    }
+
+    .blurb {
+      order: 3;
+    }
+
+    .login-comment-wrap {
+      order: 3;
     }
 
     .article-wrap {
-      width: 90%;
+      width: 100%;
     }
 
     .sidebar {
       // max-width:90%;
       max-width: 100%;
-      margin: 0 auto;    
+      margin: 0 auto;
+      order: 2;    
     }  
 
     .statistic-top-block {
@@ -382,17 +401,21 @@ $icon-font-path: '../fonts/';
 
     }
 
-    .info-block {
-     display: none;
+    .article-img-wrap {
+      margin: 20px 20px 20px 0;
     }
+
+    .info-block {
+      margin: 20px 20px 20px 0;
+    }
+    
 
   .article-column {
       order:2;
       width: 100%;
     }
 
-    .sidebar {
-      order:1;
+    .sidebar {      
       width: 100%;
       flex-direction: row;
 
@@ -401,11 +424,7 @@ $icon-font-path: '../fonts/';
       margin-bottom: auto;
       }
 
-    }
-
-    .sidebar-article-block {
-      display: none;
-    }
+    }    
 
     .sidebar-autor-block {
       display: flex;
@@ -514,11 +533,7 @@ $icon-font-path: '../fonts/';
 
   /*------------------------------------------------------article--------------------------------------------------------------*/
 
-  .article-page {
-
-    .article-flex-wrap {
-      padding: 0 15px;
-    }
+  .article-page {    
 
     .page-heading {
         font-size: 30px;
@@ -588,7 +603,7 @@ $icon-font-path: '../fonts/';
    .card-page {
 
     .article-flex-wrap {
-      padding: 0 10px;
+      padding: 0 15px;
     }
 
    }
@@ -598,7 +613,7 @@ $icon-font-path: '../fonts/';
   .card1-page {
 
     .article-flex-wrap {
-      padding: 0 10px;
+      padding: 0 15px;
     }
 
     .card-left-block,
