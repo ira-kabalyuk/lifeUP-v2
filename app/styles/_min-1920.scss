@@ -176,7 +176,10 @@ $icon-font-path: '../fonts/';
 	/*-----------------------------------------interview--------------------------------------------------------------------*/
 
 	.interview-page {
-
+		
+		.main-page-wrap {
+			max-width: 1220px;
+		}
 
 		.page-mobile-wrap {
 	      width: 1620px;
@@ -218,6 +221,10 @@ $icon-font-path: '../fonts/';
 	    top: 0;
 	    left: -215px;
 	  	}
+
+	 .article-image-block {
+  		order: 1;
+  	}	 	
 
 	}
 

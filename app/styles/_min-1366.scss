@@ -219,7 +219,11 @@ width: 45%;
 
 /*----------------------------------------------interview-------------------------------------*/
 
-	.interview-page {		
+	.interview-page {	
+
+		.main-page-wrap {
+			max-width: 1115px;
+		}	
 
 		.page-head-block {
 
@@ -405,11 +409,7 @@ width: 45%;
 
   	.comment-wrap {
   		width: 925px;
-  	}
-
-  	.statistic-bottom-block {
-			border-bottom: 0;			
-  	}	
+  	}  	
 
 	}
 
