@@ -59,7 +59,7 @@ $icon-font-path: '../fonts/';
 
 		.main-page-wrap {
 			max-width: 990px;
-			margin: 0 auto;
+			margin: 30px auto 0;
 		}	
 
 		.page-head-block {
@@ -102,6 +102,33 @@ $icon-font-path: '../fonts/';
 			margin-bottom: 10px;
 			}
 
+				.sidebar-blurb-block {
+		      margin: 10px 0;
+		      text-align: center;
+
+	      &:first-child {
+	      margin-top: 0;
+	      }
+
+	      &:last-child {
+	        margin-bottom: 0;
+	      }
+
+    	}
+
+    	 .sidebar-article-block {
+	    	padding: 10px 25px;
+
+		    &:first-child {
+		      padding-top: 0;
+		    }
+
+		    &:last-child {
+		      padding-bottom: 0;
+		    }
+
+	  	}
+
 		}
 
 		.mobile-block-wrap {
@@ -137,11 +164,10 @@ $icon-font-path: '../fonts/';
 			display: block;
 
 			.article-announcement-block {
-			margin-bottom: 26px;
-			}						
-		}
+			margin-bottom: 15px;
+			}
 
-				
+		}				
 
 		.article-announcement-text {
 			display: inline-block;
@@ -151,10 +177,7 @@ $icon-font-path: '../fonts/';
 			display: block;
 		}
 
-		.autor-name {
-			margin-bottom: 10px;
-		}
-
+		
 		.sidebar-autor-block {
 			margin-bottom: 20px;
 

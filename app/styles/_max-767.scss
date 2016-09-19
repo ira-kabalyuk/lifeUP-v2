@@ -346,9 +346,14 @@ $icon-font-path: '../fonts/';
 
     .sidebar {
       // max-width:90%;
+      padding: 0 15px;
       max-width: 100%;
       margin: 0 auto;
-      order: 2;    
+      order: 2; 
+
+      .sidebar-blurb-block {
+        margin: 10px;
+      }   
     }  
 
     .statistic-top-block {
@@ -358,9 +363,9 @@ $icon-font-path: '../fonts/';
 
     .mobile-block-wrap {
       display: flex;
-      justify-content: space-between;
-      flex-direction: column;
+      justify-content: space-between;      
       margin-top: 30px;
+      flex-wrap: wrap;
     }
 
     .net-block {
@@ -470,6 +475,7 @@ $icon-font-path: '../fonts/';
     }
 
     .sidebar-article-block {
+      width: 100%;
         .sidebar-article-wrap {
 
         &:last-child {

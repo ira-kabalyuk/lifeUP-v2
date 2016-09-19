@@ -53,6 +53,10 @@ $icon-font-path: '../fonts/';
     	display: flex;	    
 	    width: 100%;
 	    justify-content: center;
+
+	    .sidebar-article-block {
+	    	width: auto;
+	    }
 	    
   	} 	
 

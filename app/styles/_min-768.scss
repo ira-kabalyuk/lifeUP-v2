@@ -357,7 +357,8 @@ $icon-font-path: '../fonts/';
 		.mobile-block-wrap {
 			display: flex;
 			justify-content: space-between;
-			margin-top: 30px;
+			//margin-top: 30px;
+			flex-wrap: wrap;
 		}
 
 		.img-description {
@@ -379,10 +380,12 @@ $icon-font-path: '../fonts/';
 		}
 
 		.sidebar-blurb-block {
+			margin: 10px;
 			order: 2;
 		}
 
 		.sidebar-article-block {
+			width: 100%;
 			
 			.sidebar-article-wrap {
 
