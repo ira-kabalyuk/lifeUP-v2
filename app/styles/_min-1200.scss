@@ -200,6 +200,10 @@ $icon-font-path: '../fonts/';
 
 		.sidebar-news-block {
     		display: block;
+
+    		.content-block-column {
+    			margin: 0 auto;
+    		}
   		}
 		
 
