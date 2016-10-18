@@ -258,7 +258,8 @@ $icon-font-path: '../fonts/';
   	} 
 
   	.sidebar {
-    	max-width: 655px;
+    	max-width: 100%;
+    	padding: 30px 15px;  
     	margin: 0 auto;
     	flex-direction:column;    
   	}   
@@ -356,9 +357,11 @@ $icon-font-path: '../fonts/';
 
 		.mobile-block-wrap {
 			display: flex;
-			justify-content: space-between;
+			//justify-content: space-between;
 			//margin-top: 30px;
-			flex-wrap: wrap;
+			//flex-wrap: wrap;
+			flex-direction:row;
+			justify-content: flex-start;
 		}
 
 		.img-description {
@@ -366,7 +369,7 @@ $icon-font-path: '../fonts/';
 		}		
 
 		.article-announcement-text {
-      		display: flex;
+     	display: flex;
         	
     }
 
@@ -380,12 +383,12 @@ $icon-font-path: '../fonts/';
 		}
 
 		.sidebar-blurb-block {
-			margin: 10px;
-			order: 2;
+			margin-right: 20px;
+			//order: 2;
 		}
 
 		.sidebar-article-block {
-			width: 100%;
+			//width: 100%;
 			
 			.sidebar-article-wrap {
 
@@ -397,20 +400,34 @@ $icon-font-path: '../fonts/';
 
 		}
 
+			.article-description {
+			font-size: 18px;
+		}
+
+		.article-text {
+			font-size: 16px;
+		}
+
+		.autor-text {
+			font-size: 18px;
+		}
+
+		.sidebar-news-block {
+    	display: flex;
+    	margin-top: 30px;
+    	flex-wrap: wrap;
+    	justify-content: flex-start;
+
+    	.content-block-column {
+				margin: 0 30px 0 0;
+    	}
+
+  	}
+
+
 	}
 
-	.article-description {
-		font-size: 18px;
-	}
-
-	.article-text {
-		font-size: 16px;
-	}
-
-	.autor-text {
-		font-size: 18px;
-	}	
-
+	
 
 	/*--------------------------------------------------------article----------------------------------------------------------*/
 
@@ -547,11 +564,16 @@ $icon-font-path: '../fonts/';
     }
 
     .quote-autor-block {
-      width: 65%;
+      width: 73%;
     }
 
     .article-image-block {
     	order: 1;
+    }
+
+    .comment-wrap {
+    	padding-left: 15px;
+    	padding-right: 15px;
     }
 
 	}

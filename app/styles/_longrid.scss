@@ -25,7 +25,11 @@ $icon-font-path: '../fonts/';
 
     }
 
-  }  
+  } 
+
+  .article-flex-wrap.longrid-flex-wrap {
+    width: 100%;
+  } 
 
   .article-video-wrap{
    position: relative;

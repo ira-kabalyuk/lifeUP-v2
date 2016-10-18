@@ -64,6 +64,11 @@ $icon-font-path: '../fonts/';
           margin-bottom: 14px;
         }
 
+        .autor-name {
+          color: #fff;
+        }
+
+
       }
 
       .article-flex-wrap-announcement-text {
@@ -417,6 +422,27 @@ $icon-font-path: '../fonts/';
 
     }
     
+    .content-block-column {
+      margin: 0 auto 30px;
+
+      .autor-name {
+        color: #fff;
+        font-size: 12px;
+      }
+
+      .statistic-bottom-block {
+        position: absolute;
+        color: #fff;
+        width: 100%;
+        justify-content: space-between;
+
+        .statistic-text {
+         color: #fff;
+        }
+
+      }      
+
+    }
 
   }
 

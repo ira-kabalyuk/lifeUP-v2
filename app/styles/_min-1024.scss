@@ -48,11 +48,11 @@ $icon-font-path: '../fonts/';
     	//max-width: 900px;    
   	}
 
-  	.sidebar {
-    	max-width: 900px;  
+  	.sidebar {    	
     	display: flex;	    
 	    width: 100%;
 	    justify-content: center;
+	    padding: 30px 15px;
 
 	    .sidebar-article-block {
 	    	width: auto;

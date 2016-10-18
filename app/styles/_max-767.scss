@@ -346,13 +346,22 @@ $icon-font-path: '../fonts/';
 
     .sidebar {
       // max-width:90%;
-      padding: 0 15px;
+      padding: 0 10px;
       max-width: 100%;
       margin: 0 auto;
-      order: 2; 
+      order: 2;
+      margin: 30px 0; 
 
       .sidebar-blurb-block {
-        margin: 10px;
+        margin: 30px auto;
+      }
+
+      .content-block-column {
+        margin: 30px auto;
+      }
+
+      .mobile-block-wrap {
+        margin-top: 0;
       }   
     }  
 
@@ -774,6 +783,11 @@ $icon-font-path: '../fonts/';
     display: block;
     margin-left: 0;    
    }
+
+   .comment-wrap {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
 
   } 
 
