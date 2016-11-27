@@ -402,6 +402,15 @@ $icon-font-path: '../fonts/';
 
   .sidebar { 
 
+    .img-wrap {
+      margin-bottom: 0;
+    }
+
+    .autor-block {
+      padding: 0 15px;
+      margin: 0;
+    }
+
 
     .autor-name {
       color: #363636;
@@ -423,7 +432,7 @@ $icon-font-path: '../fonts/';
     }
     
     .content-block-column {
-      margin: 0 auto 30px;
+      margin: 0 0 30px 0;
 
       .autor-name {
         color: #fff;
@@ -446,7 +455,8 @@ $icon-font-path: '../fonts/';
 
   }
 
-  .sidebar-article-block {    
+  .sidebar-article-block {
+    width: 300px;
 
     .autor-name {
       font-size: 14px;

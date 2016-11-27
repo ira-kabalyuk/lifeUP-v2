@@ -337,6 +337,10 @@ $icon-font-path: '../fonts/';
 			margin-bottom: auto;
 			}
 
+			.content-block-column {
+			margin: 0 30px 30px 0;
+    	}
+
 		}
 
 		.sidebar-autor-block {
@@ -357,11 +361,17 @@ $icon-font-path: '../fonts/';
 
 		.mobile-block-wrap {
 			display: flex;
-			//justify-content: space-between;
-			//margin-top: 30px;
-			//flex-wrap: wrap;
+			flex-wrap: wrap;
 			flex-direction:row;
 			justify-content: flex-start;
+
+			.item {
+      
+		      .autor-block {
+		        width: 100%;
+		      }
+
+    		}    
 		}
 
 		.img-description {
@@ -417,13 +427,9 @@ $icon-font-path: '../fonts/';
     	margin-top: 30px;
     	flex-wrap: wrap;
     	justify-content: flex-start;
-
-    	.content-block-column {
-				margin: 0 30px 0 0;
-    	}
+    	
 
   	}
-
 
 	}
 
